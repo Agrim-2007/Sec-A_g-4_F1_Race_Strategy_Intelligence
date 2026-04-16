@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-# 🏎️ Formula 1 Race Strategy Intelligence
+# Formula 1 Race Strategy Intelligence
 
 ### _Decoding the Science Behind Every Pit Call, Grid Slot & Championship Point_
 
@@ -38,7 +38,7 @@
 
 <br/>
 
-## 📋 &nbsp; Project Overview
+## Project Overview
 
 > **In Formula 1, races are won and lost in the data — not just on the track.**
 
@@ -50,14 +50,14 @@ This repository contains the comprehensive data analysis and visualization for t
 
 <br/>
 
-## 📑 &nbsp; Master Documentation
+## Master Documentation
 
 <div align="center">
 
-| &nbsp; | Document | Description |
+| Status | Document | Description |
 | :---: | :--- | :--- |
-| 📄 | [**Master Project Document**](https://docs.google.com/document/d/1rMlTm188s5ELVhODmY1sF_PMzNEJwIwD1xeBISw3xlI/edit?tab=t.0) | Centralized repository for project progress and deep analysis notes. |
-| 📝 | [**Gate 1 Project Proposal**](https://docs.google.com/document/d/1hgF-8RlZUbNi2d4QI_K483mzBwbZpYF8/edit?usp=sharing&ouid=103256623304686024418&rtpof=true&sd=true) | Formal Gate 1 submission — problem statement, methodology & dataset quality. |
+| DOCUMENT | [**Master Project Document**](https://docs.google.com/document/d/1rMlTm188s5ELVhODmY1sF_PMzNEJwIwD1xeBISw3xlI/edit?tab=t.0) | Centralized repository for project progress and deep analysis notes. |
+| DOCUMENT | [**Gate 1 Project Proposal**](https://docs.google.com/document/d/1hgF-8RlZUbNi2d4QI_K483mzBwbZpYF8/edit?usp=sharing&ouid=103256623304686024418&rtpof=true&sd=true) | Formal Gate 1 submission — problem statement, methodology & dataset quality. |
 
 </div>
 
@@ -67,12 +67,12 @@ This repository contains the comprehensive data analysis and visualization for t
 
 <br/>
 
-## 🔍 &nbsp; Technical Problem Statement
+## Technical Problem Statement
 
 ### Sector: Motorsport & Predictive Analytics
 
 <details>
-<summary><b>📌 Contextual Background</b> — <i>click to expand</i></summary>
+<summary><b>Contextual Background</b> — <i>click to expand</i></summary>
 <br/>
 
 Formula 1 constructors inhabit a **hyper-competitive, data-saturated environment**. For mid-field teams (typically finishing between 4th and 7th in the Constructors' Championship), technical development budgets are often dwarfed by front-running teams. Consequently, **tactical optimization** — specifically regarding pit stop strategy and circuit-specific maneuvers — becomes the primary differentiator for maximizing season points and associated prize allocations.
@@ -81,21 +81,21 @@ Formula 1 constructors inhabit a **hyper-competitive, data-saturated environment
 
 <br/>
 
-### 🎯 &nbsp; Core Business Question
+### Core Business Question
 
 > *What is the measurable impact of starting grid position, pit stop efficiency (duration and frequency), and circuit topography on a driver's final classification? Furthermore, which controllable strategic variables should a mid-field constructor prioritize to optimize point accumulation across a diverse racing calendar?*
 
 <br/>
 
-### ⚡ &nbsp; Strategic Decision Support
+### Strategic Decision Support
 
 This analysis is designed to empower **Race Strategists** to:
 
-| # | Objective | Description |
+| Priority | Objective | Description |
 | :---: | :--- | :--- |
-| 🔧 | **Optimize Pit Strategy** | Determine the statistical efficacy of one-stop vs. two-stop strategies across various circuit categories. |
-| 💰 | **Resource Allocation** | Quantify the "Points Dividend" of pit crew efficiency improvements versus marginal gains in qualifying pace. |
-| 📊 | **Benchmarking** | Evaluate the "Grid-to-Finish" performance delta against direct competitors to identify operational strengths and weaknesses. |
+| OPTIMIZE | **Optimize Pit Strategy** | Determine the statistical efficacy of one-stop vs. two-stop strategies across various circuit categories. |
+| ANALYZE | **Resource Allocation** | Quantify the "Points Dividend" of numeric improvements in pit crew efficiency versus qualifying pace. |
+| BENCHMARK | **Benchmarking** | Evaluate the "Grid-to-Finish" performance delta against direct competitors to identify operational strengths. |
 
 <br/>
 
@@ -103,19 +103,19 @@ This analysis is designed to empower **Race Strategists** to:
 
 <br/>
 
-## 👥 &nbsp; Team Composition
+## Team Composition
 
 <div align="center">
 
 | Role | Name | GitHub |
 | :--- | :--- | :---: |
-| 🏆 **Project Lead** | Mitul Bhatia | [![GitHub](https://img.shields.io/badge/-mitul--bhatia-181717?style=flat-square&logo=github)](https://github.com/mitul-bhatia) |
-| 📊 **Data Lead** | Ramani Dhruv Dineshbhai | [![GitHub](https://img.shields.io/badge/-DhruvR--16-181717?style=flat-square&logo=github)](https://github.com/DhruvR-16) |
-| ⚙️ **ETL Lead** | Vetriselvan R | [![GitHub](https://img.shields.io/badge/-Vetri--78640-181717?style=flat-square&logo=github)](https://github.com/Vetri-78640) |
-| 🔬 **Analysis Lead** | Agrim Kumar Malhotra | [![GitHub](https://img.shields.io/badge/-Agrim--2007-181717?style=flat-square&logo=github)](https://github.com/Agrim-2007) |
-| 🎨 **Visualization Lead** | Kushal Sarkar | [![GitHub](https://img.shields.io/badge/-Kushal425-181717?style=flat-square&logo=github)](https://github.com/Kushal425) |
-| 🧠 **Strategy Lead** | Ritik Ranjan | [![GitHub](https://img.shields.io/badge/-ritik--beep-181717?style=flat-square&logo=github)](https://github.com/ritik-beep) |
-| 📋 **PPT & Quality Lead** | Palaparthi Harshakarthikeya | [![GitHub](https://img.shields.io/badge/-HARSHAKARTHIKEYA1510-181717?style=flat-square&logo=github)](https://github.com/HARSHAKARTHIKEYA1510) |
+| Project Lead | Mitul Bhatia | [![GitHub](https://img.shields.io/badge/-mitul--bhatia-181717?style=flat-square&logo=github)](https://github.com/mitul-bhatia) |
+| Data Lead | Ramani Dhruv Dineshbhai | [![GitHub](https://img.shields.io/badge/-DhruvR--16-181717?style=flat-square&logo=github)](https://github.com/DhruvR-16) |
+| ETL Lead | Vetriselvan R | [![GitHub](https://img.shields.io/badge/-Vetri--78640-181717?style=flat-square&logo=github)](https://github.com/Vetri-78640) |
+| Analysis Lead | Agrim Kumar Malhotra | [![GitHub](https://img.shields.io/badge/-Agrim--2007-181717?style=flat-square&logo=github)](https://github.com/Agrim-2007) |
+| Visualization Lead | Kushal Sarkar | [![GitHub](https://img.shields.io/badge/-Kushal425-181717?style=flat-square&logo=github)](https://github.com/Kushal425) |
+| Strategy Lead | Ritik Ranjan | [![GitHub](https://img.shields.io/badge/-ritik--beep-181717?style=flat-square&logo=github)](https://github.com/ritik-beep) |
+| PPT & Quality Lead | Palaparthi Harshakarthikeya | [![GitHub](https://img.shields.io/badge/-HARSHAKARTHIKEYA1510-181717?style=flat-square&logo=github)](https://github.com/HARSHAKARTHIKEYA1510) |
 
 </div>
 
@@ -125,11 +125,11 @@ This analysis is designed to empower **Race Strategists** to:
 
 <br/>
 
-## 🗄️ &nbsp; Dataset Methodology
+## Dataset Methodology
 
 <div align="center">
 
-[![Ergast F1 Database](https://img.shields.io/badge/📦_Primary_Source-Ergast_F1_Motor_Racing_Database_(Kaggle)-E10600?style=for-the-badge)](https://www.kaggle.com/datasets/jtrotman/formula-1-race-data)
+[![Ergast F1 Database](https://img.shields.io/badge/Primary_Source-Ergast_F1_Motor_Racing_Database_(Kaggle)-E10600?style=for-the-badge)](https://www.kaggle.com/datasets/jtrotman/formula-1-race-data)
 
 </div>
 
@@ -154,7 +154,7 @@ This analysis is designed to empower **Race Strategists** to:
 
 <br/>
 
-## 📈 &nbsp; Preliminary Analytical Framework
+## Preliminary Analytical Framework
 
 ### Key Performance Indicators (KPIs)
 
@@ -165,10 +165,10 @@ This analysis is designed to empower **Race Strategists** to:
 **1 · Grid-to-Finish Excellence Delta**
 
 ```
-Δ = Grid Position − Final Finishing Position
+Delta = Grid Position - Final Finishing Position
 ```
 
-Isolates **race-day execution** from pure qualifying pace. A positive Δ indicates positions gained during the race.
+Isolates **race-day execution** from pure qualifying pace. A positive value indicates positions gained during the race.
 
 </td>
     <td width="50%">
@@ -176,7 +176,7 @@ Isolates **race-day execution** from pure qualifying pace. A positive Δ indicat
 **2 · Operational Efficiency Score**
 
 ```
-OES = Σ(avg pit stop duration) / season
+OES = Sum(avg pit stop duration) / season
 ```
 
 A seasonally aggregated measure of average pit stop duration per constructor — tests correlation between mechanical speed and championship points.
@@ -187,7 +187,7 @@ A seasonally aggregated measure of average pit stop duration per constructor —
 
 <br/>
 
-### 💡 &nbsp; Hypothesized Insights
+### Hypothesized Insights
 
 > We anticipate that **qualifying position** will remain the dominant predictor of outcome on high-downforce, low-overtaking circuits. Conversely, on **power-sensitive circuits** with high overtaking frequency, pit stop strategy and efficiency will play a disproportionately larger role in determining final classification.
 
@@ -197,41 +197,41 @@ A seasonally aggregated measure of average pit stop duration per constructor —
 
 <br/>
 
-## 🏗️ &nbsp; Project Architecture
+## Project Architecture
 
 ```
-📂 Sec-A_g-4_F1_Race_Strategy_Intelligence/
+Sec-A_g-4_F1_Race_Strategy_Intelligence/
 │
-├── 📁 data/
+├── data/
 │   ├── raw/                              # Original Ergast F1 dataset files
 │   └── processed/                        # Cleaned and engineered feature sets
 │
-├── 📁 notebooks/
+├── notebooks/
 │   ├── 01_extraction.ipynb               # API/CSV data ingestion workflows
 │   ├── 02_cleaning.ipynb                 # Handling missing values & schema alignment
 │   ├── 03_eda.ipynb                      # Exploratory analysis & pit stop benchmarking
 │   ├── 04_statistical_analysis.ipynb     # Hypothesis testing & predictive modeling
 │   └── 05_final_load_prep.ipynb          # Final prep for Tableau integration
 │
-├── 📁 scripts/
+├── scripts/
 │   └── etl_pipeline.py                   # Automated data processing scripts
 │
-├── 📁 tableau/
+├── tableau/
 │   ├── screenshots/                      # Visual previews of dashboard components
 │   └── dashboard_links.md                # Access URLs for interactive Tableau workbooks
 │
-├── 📁 docs/
+├── docs/
 │   └── data_dictionary.md                # Detailed mapping of relational variables
 │
-├── 📁 reports/
+├── reports/
 │   ├── project_report.pdf                # Comprehensive technical documentation
 │   └── presentation.pdf                  # Stakeholder presentation deck
 │
-├── 📁 DVA-focused-Portfolio/              # Project-specific portfolio assets
-├── 📁 DVA-oriented-Resume/               # Resume tailored for Data Analytics roles
-├── 📁 assets/                            # Logo, banner & visual assets
+├── DVA-focused-Portfolio/              # Project-specific portfolio assets
+├── DVA-oriented-Resume/               # Resume tailored for Data Analytics roles
+├── assets/                            # Logo, banner & visual assets
 │
-└── 📄 README.md                          # ← You are here
+└── README.md                          # Main project documentation
 ```
 
 <br/>
@@ -252,6 +252,6 @@ A seasonally aggregated measure of average pit stop duration per constructor —
 
 <br/><br/>
 
-[![Made with ❤️](https://img.shields.io/badge/Made_with-❤️_and_Data-E10600?style=flat-square)](#)
+[![Made with Data](https://img.shields.io/badge/Made_with-Data_and_Analytics-E10600?style=flat-square)](#)
 
 </div>
