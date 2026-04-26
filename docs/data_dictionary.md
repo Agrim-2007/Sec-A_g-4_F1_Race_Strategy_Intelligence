@@ -65,3 +65,4 @@
 | stop_count_bucket | str | TBD | 2 stops | 0 |
 | avg_pit_seconds | float64 | TBD | 24.5255 | 15999 |
 | fastest_pit_seconds | float64 | TBD | 24.254 | 15999 |
+| cluster_label | str | Strategy archetype assigned to the circuit (e.g., Strategy-Dominant) | Strategy-Dominant | 6958 |
