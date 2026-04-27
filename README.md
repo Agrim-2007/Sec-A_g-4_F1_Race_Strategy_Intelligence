@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="assets/banner.png" alt="F1 Race Strategy Intelligence — Telemetry & Analytics" width="100%" />
+<img src="assets/f1_telemetry_banner.png" alt="F1 Race Strategy Intelligence — Telemetry & Analytics" width="100%" />
 
 <br/>
 
@@ -103,19 +103,19 @@ This analysis is designed to empower **Race Strategists** to:
 
 <br/>
 
-## Team Composition
+## Contribution Matrix & Team Leadership
 
 <div align="center">
 
-| Role | Name | GitHub |
-| :--- | :--- | :---: |
-| Project Lead | Mitul Bhatia | [![GitHub](https://img.shields.io/badge/-mitul--bhatia-181717?style=flat-square&logo=github)](https://github.com/mitul-bhatia) |
-| Data Lead | Ramani Dhruv Dineshbhai | [![GitHub](https://img.shields.io/badge/-DhruvR--16-181717?style=flat-square&logo=github)](https://github.com/DhruvR-16) |
-| ETL Lead | Vetriselvan R | [![GitHub](https://img.shields.io/badge/-Vetri--78640-181717?style=flat-square&logo=github)](https://github.com/Vetri-78640) |
-| Analysis Lead | Agrim Kumar Malhotra | [![GitHub](https://img.shields.io/badge/-Agrim--2007-181717?style=flat-square&logo=github)](https://github.com/Agrim-2007) |
-| Visualization Lead | Kushal Sarkar | [![GitHub](https://img.shields.io/badge/-Kushal425-181717?style=flat-square&logo=github)](https://github.com/Kushal425) |
-| Strategy Lead | Ritik Ranjan | [![GitHub](https://img.shields.io/badge/-ritik--beep-181717?style=flat-square&logo=github)](https://github.com/ritik-beep) |
-| PPT & Quality Lead | Palaparthi Harshakarthikeya | [![GitHub](https://img.shields.io/badge/-HARSHAKARTHIKEYA1510-181717?style=flat-square&logo=github)](https://github.com/HARSHAKARTHIKEYA1510) |
+| Domain | Role | Owner | Key Responsibilities | GitHub |
+| :--- | :--- | :--- | :--- | :---: |
+| **Project Management** | **Project Lead** | Mitul Bhatia | Overseeing project execution, ensuring milestones and cross-functional alignment | [![GitHub](https://img.shields.io/badge/-mitul--bhatia-181717?style=flat-square&logo=github)](https://github.com/mitul-bhatia) |
+| **Data Architecture** | **Data Lead** | Ramani Dhruv Dineshbhai | Structuring the database relations, designing KPIs and dataset validation | [![GitHub](https://img.shields.io/badge/-DhruvR--16-181717?style=flat-square&logo=github)](https://github.com/DhruvR-16) |
+| **Data Pipelines** | **ETL Lead** | Vetriselvan R | Implementing data extraction (NB01) & cleaning processes (NB02 & NB05) | [![GitHub](https://img.shields.io/badge/-Vetri--78640-181717?style=flat-square&logo=github)](https://github.com/Vetri-78640) |
+| **Analytics Models** | **Analysis Lead** | Agrim Kumar Malhotra | Driving statistical tracking, EDA (NB03), modeling & regressions (NB04) | [![GitHub](https://img.shields.io/badge/-Agrim--2007-181717?style=flat-square&logo=github)](https://github.com/Agrim-2007) |
+| **BI & Visuals** | **Visualization Lead** | Kushal Sarkar | Crafting the Tableau Dashboards, preparing the visual layout reference | [![GitHub](https://img.shields.io/badge/-Kushal425-181717?style=flat-square&logo=github)](https://github.com/Kushal425) |
+| **Domain Expertise** | **Strategy Lead** | Ritik Ranjan | Guiding the business insights, track strategy profiling (NB06) and findings | [![GitHub](https://img.shields.io/badge/-ritik--beep-181717?style=flat-square&logo=github)](https://github.com/ritik-beep) |
+| **Documentation** | **PPT & Quality Lead** | Palaparthi Harshakarthikeya | Final project report drafting, presentation deck and quality checks | [![GitHub](https://img.shields.io/badge/-HARSHAKARTHIKEYA1510-181717?style=flat-square&logo=github)](https://github.com/HARSHAKARTHIKEYA1510) |
 
 </div>
 
@@ -190,6 +190,28 @@ A seasonally aggregated measure of average pit stop duration per constructor —
 ### Hypothesized Insights
 
 > We anticipate that **qualifying position** will remain the dominant predictor of outcome on high-downforce, low-overtaking circuits. Conversely, on **power-sensitive circuits** with high overtaking frequency, pit stop strategy and efficiency will play a disproportionately larger role in determining final classification.
+
+<br/>
+
+---
+
+<br/>
+
+## Implementation Roadmap
+
+To successfully transform the Ergast Database into actionable analytics, we follow a rigorously phased roadmap.
+
+### ✅ What Has Been Implemented
+- **Notebook 01 (Extraction):** Extracted `14` unedited relational CSV files while preserving text structures for accurate null tracking.
+- **Notebook 02 (Cleaning):** Addressed data gaps, categorized DNFs, parsed string time data to robust continuous millisecond durations, and generated the fundamental `master_fact.csv`.
+- **Notebook 03 (EDA Phase):** Derived and visualized **8 critical metrics** including points efficiency trends, DNF rates, Grid-to-Finish distributions (the hero metric), pit stop operational speeds, winning conversion scatter plots, and constructed correlation matrices specifically scaled for continuous numerical KPIs.
+- **Notebook 04 (Statistical Methods):** Completed OLS Regression proving Grid Position yields a β ≈ -0.6 impact on points, conducted hypothesis testing on pit stop significance (p < 0.05), and launched **K-Means Clustering (K=3)** to successfully categorize all unique race tracks into `Qualifying-Dominant`, `Strategy-Dominant`, or `Mixed` archetypes.
+
+### ⏳ Further Implementation & Next Steps
+- **Notebook 05 (Tableau Load Prep):** Optimize outputs by casting booleans to binary integers and standardizing circuit identifiers into a comprehensive `circuit_strategy_profile.csv`.
+- **Notebook 06 (Bonus Track Strategies):** Refine circuit analysis to determine compound/tire wear bias, pit window percentiles, and construct track radar charts logically mapped to the K-Means clusters.
+- **Interactive Dashboards Formulation:** Hand-off processed outputs into the **4 Core Tableau Dashboards** (Executive View, Pit Strategy, Grid Delta Race Craft, and the Tactical Circuit Intelligence map). 
+- **Presenting Actionable Outcomes:** Consolidating insights into the Final Project Reporting and our 10-slide strategy desk deployment. 
 
 <br/>
 
